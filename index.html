@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/src/assets/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>myDNS</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            dark: '#0a0a0a',
+            card: '#141414',
+            cardHover: '#1a1a1a',
+            accent: '#facc15', // Yellow-400
+            border: '#27272a'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-dark text-gray-300 font-sans antialiased">
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
