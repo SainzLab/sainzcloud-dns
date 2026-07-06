@@ -10,8 +10,8 @@ const app = express();
 app.use(cors());
 
 const ADGUARD_URL = 'http://10.13.13.1:3000/control/stats';
-const ADGUARD_USERNAME = '';
-const ADGUARD_PASSWORD = '';
+const ADGUARD_USERNAME = 'fazli';
+const ADGUARD_PASSWORD = 'fazli2005';
 
 app.get('/', async (req, res) => {
   try {

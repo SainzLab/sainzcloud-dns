@@ -1,4 +1,5 @@
 <template>
+  <a id="live"></a>
   <section class="pb-16">
     <div class="flex items-center justify-between mb-6">
       <h2 class="text-white font-medium">Live Telemetry (24H)</h2>
